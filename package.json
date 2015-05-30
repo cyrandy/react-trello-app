@@ -1,0 +1,37 @@
+{
+  "name": "catfi-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.7.6",
+    "cjsx-loader": "^2.0.1",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.3",
+    "compass-mixins": "^0.12.7",
+    "css-loader": "^0.14.4",
+    "del": "^1.2.0",
+    "gulp": "^3.8.11",
+    "gulp-jade": "^1.0.1",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-util": "^3.0.4",
+    "node-libs-browser": "^0.5.2",
+    "node-sass": "^3.1.2",
+    "path": "^0.11.14",
+    "run-sequence": "^1.1.0",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "susy": "^2.2.5",
+    "webpack": "^1.9.10",
+    "webpack-dev-server": "^1.9.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  }
+}
