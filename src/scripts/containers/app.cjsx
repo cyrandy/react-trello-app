@@ -11,12 +11,8 @@ App = React.createClass {
     <div>
       <NavBar />
       <div className='main'>
-        <nav>
-          <Link to="todo">Todo</Link>
-          <Link to="ker">Ker</Link>
-        </nav>
+        <RouteHandler/>
       </div>
-      <RouteHandler/>
     </div>
 }
 

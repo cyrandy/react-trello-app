@@ -3,12 +3,12 @@ Router = require 'react-router'
 Route = Router.Route
 
 App = require './containers/app'
-Todo = require './todo'
+Notifications = require './routes/notifications'
 Ker = require './ker'
 
 routes = (
   <Route handler={App}>
-    <Route name="todo" handler={Todo} path="/" />
+    <Route name="notifications" handler={Notifications} path="/" />
     <Route name="ker" handler={Ker} path="/ker" />
   </Route>
 )

@@ -42,8 +42,15 @@
     border: 0
     font-size: 16px
     color: rgba(255,255,255,.8)
-    // +input-placeholder
-    //   color: rgba(255,255,255,.6)
 
     &:focus
       outline: 0
+
+.search-bar .search-input:-moz-placeholder
+  color: rgba(255, 255, 255, 0.6)
+.search-bar .search-input::-moz-placeholder
+  color: rgba(255, 255, 255, 0.6)
+.search-bar .search-input:-ms-input-placeholder
+  color: rgba(255, 255, 255, 0.6)
+.search-bar .search-input::-webkit-input-placeholder
+  color: rgba(255, 255, 255, 0.6)
